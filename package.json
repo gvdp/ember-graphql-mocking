@@ -32,7 +32,7 @@
     ]
   },
   "peerDependencies": {
-    "msw": "^0.47.0"
+    "msw": "^1.0.1"
   },
   "dependencies": {
     "broccoli-funnel": "^3.0.5",
@@ -43,6 +43,7 @@
     "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
+    "msw": "^1.0.1",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@ember/optional-features": "^2.0.0",
