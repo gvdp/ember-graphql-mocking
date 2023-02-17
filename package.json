@@ -31,14 +31,16 @@
       "@commitlint/config-conventional"
     ]
   },
+  "peerDependencies": {
+    "msw": "^0.47.0"
+  },
   "dependencies": {
     "broccoli-funnel": "^3.0.5",
     "broccoli-merge-trees": "^4.2.0",
     "ember-auto-import": "^2.4.2",
     "ember-cli-babel": "^7.26.11",
     "graphql": "^16.6.0",
-    "lodash.merge": "^4.6.2",
-    "msw": "^0.47.0"
+    "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
